@@ -1,4 +1,6 @@
-# include<iostream>
+                                                            CHECKING THE CHOICE USING SWITCH CASE
+ 
+ # include<iostream>
 using namespace std;
 int main(){
     int x =2;
@@ -16,4 +18,26 @@ int main(){
         cout<<"Choice is other than 1,2 and 3"<<"\n";
         break;
     }
+}
+
+                                                                CHECKING THE DIVISIBILITY USING SWITCH CASE
+       # include<iostream>
+using namespace std;
+int main(){
+    int x =2;
+    switch (x%2) {
+        case 2 :
+        cout<<"Remainder is 2";
+        break;
+        case 3 : 
+        cout<<"Remainder is 3";
+        break;
+        case 4 :
+        cout<<"Remainder is 4";
+        break;
+    default :
+    cout<<"Remainder is something else";
+        
+    }
+    
 }
