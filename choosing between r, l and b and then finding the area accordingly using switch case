@@ -1,0 +1,35 @@
+# include <iostream>
+# include <math.h>
+using namespace std;
+int main(){
+    char r, l, b;
+    int a, d, c;
+    
+    cout<<"Choose between r, l and b"<<endl;
+    float pi =3.41;
+    char choice;
+    cin>> choice;
+    switch (choice) {
+        case 'r' :
+        cin>>a;
+        cout<<"Area of circle is "<<(pi*a*a);
+        break;
+        case 'l' :
+        cout<<"Enter the value of l ";
+        cin>>d;
+        cout<<"Enter the value of b ";
+        cin>>c;
+        cout<<"Area of rectangle is "<<(d*c);
+        break;
+        case 'b' :
+        cout<<"Enter the value of l ";
+        cin>>d;
+        cout<<"Enter the value of b ";
+        cin>>c;
+        cout<<"Area of rectangle is "<<(d*c);
+        break;
+        default :
+        cout<<"Unrecognised data";
+        break;
+    }
+}
